@@ -5,3 +5,27 @@
     scroll-behavior: smooth	;
     box-sizing: border-box;
 }
+.bg-dark{
+    background-color: #273273 !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+footer{
+    width: 100vw;
+}
+#carrosel{
+    display: none;
+}
+#footer{
+    background-color: #273273 !important;
+    color: white;
+}
+#footer a{
+    color: white;
+}
+@media only screen and (min-width: 425px) {
+    #carrosel{
+        display: inherit;
+    }
+  } 
