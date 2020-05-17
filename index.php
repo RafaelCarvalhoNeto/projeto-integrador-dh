@@ -1,4 +1,4 @@
-<?php $tituloDaPagina = "Index" ?>
+<?php $tituloDaPagina = "Ecommerce.com: Compre os melhores produtos!" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 <div class="container mt-3" id="carrosel">
@@ -13,25 +13,25 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100"
-              src="https://www.wigan-leigh.ac.uk/application/files/6815/0816/7195/placeholder.png" alt="First slide">
+              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Item 1 Heading</h5>
+              <h3>Item 1 Heading</h3>
               <p>Item 1 Description</p>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="https://www.wigan-leigh.ac.uk/application/files/6815/0816/7195/placeholder.png" alt="Second slide">
+              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Item 2 Heading</h5>
+              <h3>Item 2 Heading</h3>
               <p>Item 2 Description</p>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="https://www.wigan-leigh.ac.uk/application/files/6815/0816/7195/placeholder.png" alt="Third slide">
+              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Item 3 Heading</h5>
+              <h3>Item 3 Heading</h3>
               <p>Item 3 Description</p>
             </div>
           </div>
@@ -48,134 +48,171 @@
     </div>
   </div>
 </div>
-<p class="mt-12">Mais Vendidos<br></p>
-<hr>
-<!-- Cards Deck -->
+<div class="container" id="maisvendidos">
+  <h3>Mais Vendidos</h3>
+</div>
+<!-- Card deck -->
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Samsung S20</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\computador.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Computador Zika</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\controle-ps5.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Controle PS5</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center mt-4">
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Card title</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Card title</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 pb-1 pb-md-0">
+      <div class="card">
+        <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title" id="produto">Card title</h3>
+          <p class="card-text" id="preco">R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- cards redondos -->
+<div class="container">
+<section id="catR" class="row ml-5 mr-5">
+
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="mb-3">
+        <a href="#">
+          <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
+      </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="mb-3">
+      <a href="#">
+        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="mb-3">
+      <a href="#">
+        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="mb-3">
+      <a href="#">
+        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+<!-- card deck -->
 <section>
-  <article class="col-lg-12">
-    <div class="row row-cols-1 row-cols-md-3">
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Produto1</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <h3 class="card-title" id="produto">Samsung S20</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
           </div>
         </div>
       </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\computador.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Produto2</h5>
-            <p class="card-text">This is a short card.</p>
+            <h3 class="card-title" id="produto">Card title</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
           </div>
         </div>
       </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\controle-ps5.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Produto3</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content.</p>
+            <h3 class="card-title" id="produto">Card title</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
           </div>
         </div>
       </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
+    </div>
+    <div class="row text-center mt-4">
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Produto4</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <h3 class="card-title" id="produto">Card title</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title" id="produto">Card title</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 pb-1 pb-md-0">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\celular.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title" id="produto">Card title</h3>
+            <p class="card-text" id="preco">R$ 900,00</p>
           </div>
         </div>
       </div>
     </div>
-  </article>
-  <!-- cards redondos -->
-  <section id="catR" class="row ml-5 mr-5">
+  </div>
 
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <div class="mb-3">
-          <a href="#">
-            <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-
-  </section>
-  <!-- card deck -->
-  <section>
-    <article class="col-lg-12">
-      <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
-            <div class="card-body">
-              <h5 class="card-title">Produto1</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
-            <div class="card-body">
-              <h5 class="card-title">Produto2</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
-            <div class="card-body">
-              <h5 class="card-title">Produto3</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="./assets/img/blank.jpeg" class="card-img-top" alt=".h-100">
-            <div class="card-body">
-              <h5 class="card-title">Produto4</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-  </section>
-
-
-  <?php require_once("./inc/footer.php"); ?>
+    <?php require_once("./inc/footer.php"); ?>

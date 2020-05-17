@@ -1,10 +1,54 @@
 /*RESETS*/
-*{
+* {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth	;
+    scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+header {
+    background-color: #273273;
+}
+
+#login {
+    float: right !important;
+}
+
+.subnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #273273;
+}
+
+.subnav li {
+    float: left;
+}
+
+.subnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav li a:hover {
+    background-color: #75B8BF;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#maisvendidos {
+    padding-top: 20px;
+}
+
 #redonda {
     margin-bottom: 20px;
     border-radius: 45%;
@@ -12,31 +56,58 @@
     /* widows: 70%; */
     justify-content: row space-between !important;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #273273 !important;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white !important;
 }
+
 section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-footer{
+
+footer {
     width: 100vw;
 }
-#carrosel{
+
+#carrosel {
     display: none;
 }
-#footer{
+
+#footer {
     background-color: #273273 !important;
     color: white;
+    width: 100%;
+    margin: auto;
 }
-#footer a{
+
+#produto{
+    text-align: left;
+    font-size: x-large;
+}
+#preco{
+    text-align: left;
+    font-size: xx-large;
+}
+#footer a {
     color: white;
 }
+
+.card {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
 @media only screen and (min-width: 425px) {
-    #carrosel{
+    .subnav {
+        max-width: 1140px;
+        margin: auto;
+    }
+
+    #carrosel {
         display: inherit;
     }
-  } 
+}
