@@ -50,6 +50,7 @@
 </div>
 <div class="container" id="maisvendidos">
   <h3>Mais Vendidos</h3>
+  <hr>
 </div>
 <!-- Card deck -->
 <div class="container">
@@ -117,42 +118,66 @@
 </div>
 </article>
 <!-- cards redondos -->
+<div class="container" id="maisvendidos">
+  <h3>Navegue por loja</h3>
+  <hr>
+</div>
+<section>
 <div class="container">
-<section id="catR" class="row ml-5 mr-5">
+    <div class="row">
+      <div class="col">
+        <img src="assets\img\ofertas.jpg">
+      </div>
+      <div class="col">
+        <img src="assets\img\livros.jpg">
+      </div>
+      <div class="col">
+        <img src="assets\img\moveis.jpg">
+      </div>
+      <div class="col">
+        <img src="assets\img\copos.jpg">
+      </div>
+</section>
+<!-- <div class="container">
+  <section id="catR" class="row ml-5 mr-5">
 
-  <div class="row">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="mb-3">
+          <a href="#">
+            <img id="redonda" src="assets\img\ofertas.jpg" class alt=".h-100">
+        </div>
+        </a>
+      </div>
+    </div>
     <div class="col-sm-6 col-md-3">
       <div class="mb-3">
         <a href="#">
-          <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
+          <img id="redonda" src="assets\img\livros.jpg" class alt=".h-100">
+        </a>
       </div>
-      </a>
     </div>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <div class="mb-3">
-      <a href="#">
-        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-      </a>
+    <div class="col-sm-6 col-md-3">
+      <div class="mb-3">
+        <a href="#">
+          <img id="redonda" src="assets\img\moveis.jpg" class alt=".h-100">
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <div class="mb-3">
-      <a href="#">
-        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-      </a>
+    <div class="col-sm-6 col-md-3">
+      <div class="mb-3">
+        <a href="#">
+          <img id="redonda" src="assets\img\copos.jpg" class alt=".h-100">
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <div class="mb-3">
-      <a href="#">
-        <img id="redonda" src="./assets/img/blank2.jpeg" class alt=".h-100">
-      </a>
-    </div>
-  </div>
 </div>
-</section>
+</section> -->
 <!-- card deck -->
+<div class="container" id="maisvendidos">
+  <h3>Ofertas</h3>
+  <hr>
+</div>
 <section>
   <div class="container">
     <div class="row text-center">
@@ -214,5 +239,6 @@
       </div>
     </div>
   </div>
-
-    <?php require_once("./inc/footer.php"); ?>
+</div>
+</section>
+<?php require_once("./inc/footer.php"); ?>

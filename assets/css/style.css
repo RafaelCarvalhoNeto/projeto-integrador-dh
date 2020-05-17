@@ -49,14 +49,6 @@ body {
     padding-top: 20px;
 }
 
-#redonda {
-    margin-bottom: 20px;
-    border-radius: 45%;
-    height: 150px;
-    /* widows: 70%; */
-    justify-content: row space-between !important;
-}
-
 .bg-dark {
     background-color: #273273 !important;
 }
@@ -72,6 +64,7 @@ section {
 
 footer {
     width: 100vw;
+    background-color: #273273 !important;
 }
 
 #carrosel {
