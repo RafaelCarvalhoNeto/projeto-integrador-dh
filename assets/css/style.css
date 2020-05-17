@@ -5,11 +5,22 @@
     scroll-behavior: smooth	;
     box-sizing: border-box;
 }
+#redonda {
+    margin-bottom: 20px;
+    border-radius: 45%;
+    height: 150px;
+    /* widows: 70%; */
+    justify-content: row space-between !important;
+}
 .bg-dark{
     background-color: #273273 !important;
 }
 .navbar-brand{
     color: white !important;
+}
+section {
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer{
     width: 100vw;
