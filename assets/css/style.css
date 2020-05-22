@@ -8,6 +8,12 @@
     font-weight: 400;
     font-style: normal;
 }
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
 
 header {
     background-color: #273273;
@@ -78,14 +84,17 @@ footer {
     margin: auto;
 }
 
-#produto{
+#produto {
     text-align: left;
-    font-size: x-large;
+    font-size: 1.2em;
+    color: rgb(39, 39, 39);
 }
 #preco{
     text-align: left;
-    font-size: xx-large;
+    font-size: 1.5em;
+    color: #000;
 }
+
 #footer a {
     color: white;
 }
@@ -93,6 +102,18 @@ footer {
 .card {
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 }
+
+.avancar{
+    transition: all 0.3s ease-in-out
+}
+
+.avancar:hover{
+    transform: scale(1.05);
+    box-shadow: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
 
 @media only screen and (min-width: 425px) {
     .subnav {

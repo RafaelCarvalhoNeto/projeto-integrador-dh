@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Ecommerce</a>
+                <a class="navbar-brand" href="index.php">Ecommerce</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -26,9 +26,6 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Politicas de Privacidade</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
                         </li>
                         <li class="nav-item" id="login">
                             <a class="nav-link" href="#">Login</a>
