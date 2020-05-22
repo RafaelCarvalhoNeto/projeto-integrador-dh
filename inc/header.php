@@ -27,6 +27,9 @@
                                 <a class="dropdown-item" href="#">Politicas de Privacidade</a>
                             </div>
                         </li>
+                        <li class="nav-item" id="cadastro">
+                            <a class="nav-link" href="cadastro.php">Cadastro</a>
+                        </li>
                         <li class="nav-item" id="login">
                             <a class="nav-link" href="#">Login</a>
                         </li>
