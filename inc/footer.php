@@ -86,9 +86,9 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           <button type="button" class="btn btn-primary">Logar</button>
-          <label class="container justify-content-right" for="semCadastro">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
-          <label class="container justify-content-right" for="esqueceuSenha">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
         </div>
+        <label class="container justify-content-right">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
+        <label class="container justify-content-right">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
       </div>
     </div>
   </div>
