@@ -57,7 +57,7 @@
   <!-- Modal Login  -->
   <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel"
     aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="modalLoginLabel">Login</h5>
@@ -68,7 +68,7 @@
         <div class="modal-body">
           <form action="" method="post">
             <div class="form-group">
-              <label for="email">email</label>
+              <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="meuemail@meuprovedor.com" aria-describedby="emailHelp">
               <small id="emailHelp" class="form-text text-muted">Nunca salve seu email em computadores públicos.</small>
             </div>
@@ -79,19 +79,16 @@
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="aceite">
-              <label class="form-check-label" for="aceite">Concordo com a <a href="politicas.php">Politicas de Privacidade</a> e <a href="termos.php">Termos de Uso</a></label>
+              <label class="form-check-label" for="aceite">Concordo com a <a href="politicas.php">Políticas de Privacidade</a> e <a href="politicas.php">Termos de Uso</a></label>
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           <button type="button" class="btn btn-primary">Logar</button>
-          <hr>
+          <label class="container justify-content-right" for="semCadastro">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
+          <label class="container justify-content-right" for="esqueceuSenha">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
         </div>
-        
-        <label class="container justify-content-right" for="semCadastro">Ainda não tem cadastro? <a href="cadastro.php">Cadastre-se Aqui!</a></label>
-        <label class="container justify-content-right" for="esqueceuSenha">Esqueceu sua senha? <a href="#">Clique Aqui!</a></label>
-        
       </div>
     </div>
   </div>

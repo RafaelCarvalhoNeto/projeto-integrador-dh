@@ -11,7 +11,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicial<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">Inicial<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Produtos</a>
@@ -22,15 +22,15 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Contato</a>
                                 <a class="dropdown-item" href="#">Institucional</a>
-                                <a class="dropdown-item" href="#">Termos de uso</a>
+                                <a class="dropdown-item" href="politicas.php">Termos de uso</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Politicas de Privacidade</a>
+                                <a class="dropdown-item" href="politicas.php">Politicas de Privacidade</a>
                             </div>
                         </li>
                         <li class="nav-item" id="cadastro">
                             <a class="nav-link" href="cadastro.php">Cadastro</a>
                         </li>
-                        <li class="nav-item" id="login">
+                        <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
                         </li>
 
