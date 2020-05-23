@@ -47,14 +47,64 @@
           </div>
         </div>
       </div>
-          <div class="d-flex flex-row flex-nowrap justify-content-center py-3 " id="footer">
-              <small>xxxx &copy; | CNPJ 01.012.012/0001-99 | <a href="#" title="Políticas e Termos" data-toggle="modal" data-target="#modalPoliticas">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções" data-toggle="modal" data-target="#modalTrocas">Trocas e Devoluções</a></small>
-          </div>
+      <div class="d-flex flex-row flex-nowrap justify-content-center py-3 " id="footer">
+        <small>xxxx &copy; | CNPJ 01.012.012/0001-99 | <a href="#" title="Políticas e Termos" data-toggle="modal"
+            data-target="#modalPoliticas">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções"
+            data-toggle="modal" data-target="#modalTrocas">Trocas e Devoluções</a></small>
+      </div>
     </div>
   </footer>
- 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Modal Login  -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="email" class="form-control" id="email" placeholder="meuemail@meuprovedor.com" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Nunca salve seu email em computadores públicos.</small>
+            </div>
+            <div class="form-group">
+              <label for="senha">Password</label>
+              <input type="password" class="form-control" id="senha" placeholder="insira sua senha" aria-describedby="passwordHelp">
+              <small id="passwordHelp" class="form-text text-muted">Nunca salve sua senha em computadores públicos.</small>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="aceite">
+              <label class="form-check-label" for="aceite">Concordo com a <a href="politicas.php">Politicas de Privacidade</a> e <a href="termos.php">Termos de Uso</a></label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Logar</button>
+          <hr>
+        </div>
+        
+        <label class="container justify-content-right" for="semCadastro">Ainda não tem cadastro? <a href="cadastro.php">Cadastre-se Aqui!</a></label>
+        <label class="container justify-content-right" for="esqueceuSenha">Esqueceu sua senha? <a href="#">Clique Aqui!</a></label>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
   </body>
+
   </html>

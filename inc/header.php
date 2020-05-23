@@ -31,7 +31,7 @@
                             <a class="nav-link" href="cadastro.php">Cadastro</a>
                         </li>
                         <li class="nav-item" id="login">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
                         </li>
 
                     </ul>
