@@ -33,7 +33,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-lg-5 col-6">
+          <div class="col-md-4 col-lg-12 text-center">
             <address>
               <strong>Ecommerce, Inc.</strong><br>
               Rua Alameda Santos 110<br>
