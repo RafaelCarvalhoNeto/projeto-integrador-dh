@@ -110,9 +110,23 @@ footer {
     transform: scale(1.05);
     box-shadow: #000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+}
+#politicas {
+    background-color: #ededed;
+}
+#privacidade {
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
 }
 
+#institucional {
+    margin-top: 35px !important;
+    padding-top: 15px;
+    background-color: #ededed;
+}
+#historia {
+    margin-top: 0 !important;
+}
 
 @media only screen and (min-width: 425px) {
     .subnav {
@@ -122,5 +136,9 @@ footer {
 
     #carrosel {
         display: inherit;
+    }
+    #institucional {
+        max-width: 1140px;
+        margin: auto;
     }
 }
