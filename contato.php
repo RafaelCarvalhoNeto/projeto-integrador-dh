@@ -5,7 +5,7 @@
 <main class="container">
     <h1 class="p-3">Entre em Contato Conosco!</h1>
     <hr>
-    <p>Somos uma empresa que ouve nossos clientes. Nos mande um email!</p>
+    <p>Somos uma empresa que ouve nossos clientes. Nos mande um email! </p>
     <br>
     <form action="" method="post" id="formContato">
         <div class="form-row">
