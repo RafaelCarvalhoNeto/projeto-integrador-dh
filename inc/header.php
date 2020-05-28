@@ -44,10 +44,10 @@
         </nav>
         <div class="subnav">
             <ul>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Livros</a></li>
-                <li><a href="#">Eletronicos</a></li>
-                <li><a href="#about">Bolsas</a></li>
+                <li><a href="./ofertas.php">Ofertas</a></li>
+                <li><a href="./livros.php">Livros</a></li>
+                <li><a href="./eletronicos.php">Eletronicos</a></li>
+                <li><a href="./bolsas.php">Bolsas</a></li>
             </ul>
         </div>
     </header>
