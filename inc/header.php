@@ -18,10 +18,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre nos</a>
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre nós</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Contato</a>
-                                <a class="dropdown-item" href="#">Institucional</a>
+                                <a class="dropdown-item" href="institucional.php">Institucional</a>
                                 <a class="dropdown-item" href="politicas.php">Termos de uso</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="politicas.php">Politicas de Privacidade</a>
@@ -46,7 +46,7 @@
             <ul>
                 <li><a href="./ofertas.php">Ofertas</a></li>
                 <li><a href="./livros.php">Livros</a></li>
-                <li><a href="./eletronicos.php">Eletronicos</a></li>
+                <li><a href="./eletronicos.php">Eletrônicos</a></li>
                 <li><a href="./bolsas.php">Bolsas</a></li>
             </ul>
         </div>
