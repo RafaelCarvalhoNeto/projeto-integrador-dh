@@ -15,7 +15,7 @@
 
           <div class="carousel-item active">
             <img class="d-block w-100"
-              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="First slide">
+              src="./assets/img/livros-poster.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
               <h3>Item 1 Heading</h3>
               <p>Item 1 Description</p>
@@ -24,7 +24,7 @@
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="Second slide">
+              src="./assets/img/bolsas-poster.png" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
               <h3>Item 2 Heading</h3>
               <p>Item 2 Description</p>
@@ -33,7 +33,7 @@
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" alt="Third slide">
+              src="./assets/img/eletronicos-poster.png" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
               <h3>Item 3 Heading</h3>
               <p>Item 3 Description</p>
