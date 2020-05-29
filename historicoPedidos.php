@@ -1,4 +1,4 @@
-<?php $tituloDaPagina = "Contato" ?>
+<?php $tituloDaPagina = "Historico de Pedidos" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
