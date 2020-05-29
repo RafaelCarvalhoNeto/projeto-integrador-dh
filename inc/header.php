@@ -20,10 +20,9 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre nós</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Contato</a>
+                                <a class="dropdown-item" href="contato.php">Contato</a>
                                 <a class="dropdown-item" href="institucional.php">Institucional</a>
                                 <a class="dropdown-item" href="politicas.php">Termos de uso</a>
-                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="politicas.php">Politicas de Privacidade</a>
                             </div>
                         </li>
