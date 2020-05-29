@@ -1,11 +1,11 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
-<div class="container">
-    <h5 class="col-12 mt-3 mb-3 text dark border-bottom">Políticas de Privacidade</h5>
+<div class="container" id="politicas">
+    <h5 class="col-12 mt-3 mb-3 text dark border-bottom" id="privacidade">Políticas de Privacidade</h5>
     <div class="container">
         <h3 class="col-12 mt-3 mb-3 text dark border-bottom">Política de Privacidade</h3>
-        <p>A Ecommerce tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra pelo site. Os dados cadastrais dos clientes não são vendidos, trocados ou divulgados para terceiros, exceto quando essas informações são necessárias para o processo de entrega, para cobrança, ou para participação em promoções solicitadas pelos clientes. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa, de acordo com nosso prazo de entrega.
-        A Ecommerce utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você. Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pela Ecommerce de forma automatizada, dispensando manipulação humana.
+        <p>A <strong>Ecommerce</strong> tem o compromisso com a privacidade e a segurança de seus clientes durante todo o processo de navegação e compra pelo site. Os dados cadastrais dos clientes não são vendidos, trocados ou divulgados para terceiros, exceto quando essas informações são necessárias para o processo de entrega, para cobrança, ou para participação em promoções solicitadas pelos clientes. Seus dados pessoais são peça fundamental para que seu pedido chegue em segurança, na sua casa, de acordo com nosso prazo de entrega.
+        A <strong>Ecommerce</strong> utiliza cookies e informações de sua navegação (sessão do browser) com o objetivo de traçar um perfil do público que visita o site e aperfeiçoar sempre nossos serviços, produtos, conteúdos e garantir as melhores ofertas e promoções para você. Durante todo este processo mantemos suas informações em sigilo absoluto. Vale lembrar que seus dados são registrados pela <strong>Ecommerce</strong> de forma automatizada, dispensando manipulação humana.
         Para que estes dados permaneçam intactos, nós desaconselhamos expressamente a divulgação de sua senha a terceiros, mesmo a amigos e parentes.
         As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço.
         </p>
@@ -13,11 +13,9 @@
     <div class="class container">
         <h3 class="class col-12 mt-3 mb-3 text dark border-bottom">Termo de Uso</h3>
         <p>Termo de Compra e Venda
-            TERMO DE CONTRATO DE COMPRA E VENDA DE PRODUTOS PELA INTERNET
+            TERMO DE CONTRATO DE COMPRA E VENDA DE PRODUTOS PELA INTERNET <strong>Ecommerce S/A</strong>, pessoa jurídica de direito privado, com sede na cidade de Franca/SP, Rua xxxxx, nº 1465, inscrita no CNPJ nº 00.000.000/0000-00, uma empresa varejista com foco em bens duráveis, que tem como um de seus objetivos a facilidade para o cliente na realização de suas compras. Pensando nisso disponibiliza a seus clientes a possibilidade de efetuarem compras pela internet.1. OBJETIVO
 
-            Ecommerce S/A, pessoa jurídica de direito privado, com sede na cidade de Franca/SP, Rua xxxxx, nº 1465, inscrita no CNPJ nº 00.000.000/0000-00, uma empresa varejista com foco em bens duráveis, que tem como um de seus objetivos a facilidade para o cliente na realização de suas compras. Pensando nisso disponibiliza a seus clientes a possibilidade de efetuarem compras pela internet.1. OBJETIVO
-
-            1.1 O objetivo deste contrato é apresentar para os clientes do Ecommerce as condições gerais para compra e venda de produtos no site www.ecommerce.git.hub
+            1.1 O objetivo deste contrato é apresentar para os clientes do <strong>Ecommerce</strong> as condições gerais para compra e venda de produtos no site www.ecommerce.git.hub
 
             2. CAPACIDADE PARA CADASTRAR E COMPRAR NO WEBSITE
 
@@ -31,7 +29,7 @@
 
             4.1 O pagamento poderá ser efetuado através de boleto bancário e/ou cartão de crédito
 
-            4.2 O Ecommerce aceita as seguintes bandeiras dos cartões de crédito: Visa, Mastercard, Amercian Express, Diners, Hipercard, Aura e Elo.
+            4.2 O <strong>Ecommerce</strong> aceita as seguintes bandeiras dos cartões de crédito: Visa, Mastercard, Amercian Express, Diners, Hipercard, Aura e Elo.
 
             4.3 Os preços e condições de pagamento são exclusivos para compra via internet e podem variar nas lojas físicas.
 
