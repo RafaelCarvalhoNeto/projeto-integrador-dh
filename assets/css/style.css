@@ -114,6 +114,9 @@ footer {
 
 }
 
+#table {
+    overflow-x:auto !important;
+}
 
 @media only screen and (min-width: 425px) {
     .subnav {
