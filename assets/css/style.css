@@ -119,6 +119,9 @@ footer {
     padding-bottom: 10px !important;
 }
 
+#table {
+    overflow-x:auto !important;
+
 #institucional {
     margin-top: 35px !important;
     padding-top: 15px;
