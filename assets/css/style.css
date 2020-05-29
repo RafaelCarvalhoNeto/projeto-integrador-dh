@@ -21,13 +21,15 @@ header {
 #login {
     float: right !important;
 }
-
+.subnav{
+    background-color: #313f8f;
+}
 .subnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #273273;
+
 }
 
 .subnav li {
@@ -131,12 +133,29 @@ footer {
 #historia {
     margin-top: 0 !important;
 }
+.search{
+    background-image: url(../img/lupa.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size:  20px;
+    background-position: right;
+    background-position-x: 2px;
+    width: 30px;
+}
+.arrendonar{
+    border-radius: 100px;
+}
+.btn-outline-warning{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-warning:hover{
+    background-color: #fff;
+    border-color: #fff;
+}
+
 
 @media only screen and (min-width: 425px) {
-    .subnav {
-        max-width: 1140px;
-        margin: auto;
-    }
 
     #carrosel {
         display: inherit;
@@ -144,5 +163,17 @@ footer {
     #institucional {
         max-width: 1140px;
         margin: auto;
+    }
+    #busca{
+        width: 400px
+    }
+    .seta{
+    height: 100px;
+    margin: auto 25px;
+    background: #273273;
+    width: 30px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        color: black
     }
 }
