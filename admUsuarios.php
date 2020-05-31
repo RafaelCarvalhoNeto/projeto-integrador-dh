@@ -1,5 +1,7 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
+<h1 class="container col-12 mt-5" id="admUsuarios">Tabela de Usuários</h1>
+<div class="container col-12">
     <table class="table mt-5">
         <thead class="thead-dark">
             <tr>
@@ -15,19 +17,22 @@
             </tr>
         </thead>
         <tbody>
+            <?php foreach ($listaDeUsuarios as $usuario): ?>
             <tr>
-                <th scope="row">1</th>
-                    <td>nome</td>
-                    <td>sobrenome</td>
-                    <td>cpf</td>
-                    <td>@</td>
-                    <td>senha</td>
-                    <td>cep</td>
-                    <td>cidade</td>
-                    <td>uf</td>
-                    
+                <th scope="row"><?php for ($i=0; $i < $usuario ; $i++) { 
+                    echo $i + 1;
+                } ?></th>
+                    <td><?= $usuario["nome"]; ?></td>
+                    <td><?= $usuario["sobrenome"]; ?></td>
+                    <td><?= $usuario["cpf"]; ?></td>
+                    <td><?= $usuario["email"]; ?></td>
+                    <td><?= $usuario["senha"]; ?></td>
+                    <td><?= $usuario["cep"]; ?></td>
+                    <td><?= $usuario["cidade"]; ?></td>
+                    <td><?= $usuario["uf"]; ?></td>
             </tr>
+            <?php endforeach; ?>
         </tbody>
     </table>
-
+</div>
     <?php require_once("./inc/footer.php"); ?>
