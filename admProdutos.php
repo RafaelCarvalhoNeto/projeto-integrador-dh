@@ -2,8 +2,6 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 <main class="container" id="barraPedidos">
     <h2 id="caixaPedidos">Produtos</h2>
     <p>Pesquise por uma Produto:</p>
@@ -19,7 +17,7 @@
                     <th scope="col">Preço (BRL)</th>
                     <th scope="col">Categoria</th>
                     <th scope="col">ID</th>
-                    <th scope="col">Acoes</th>
+                    <th scope="col">Ações</th>
 
                 </tr>
             </thead>
@@ -29,7 +27,7 @@
                             style="max-height: 50px;"></td>
                     <td scope="row">Computador</td>
                     <td scope="row">900</td>
-                    <td scope="row">Eletronicos</td>
+                    <td scope="row">Eletrônicos</td>
                     <td scope="row">000</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
@@ -55,7 +53,7 @@
                             style="max-height: 50px;"></td>
                     <td scope="row">Samsung S20</td>
                     <td scope="row">900</td>
-                    <td scope="row">Eletronicos</td>
+                    <td scope="row">Eletrônicos</td>
                     <td scope="row">002</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
@@ -139,7 +137,7 @@
                                 <select class="custom-select">
                                     <option value="1">Bolsas</option>
                                     <option value="2">Livros</option>
-                                    <option value="3">Eletronicos</option>
+                                    <option value="3">Eletrônicos</option>
                                     <option value="4">Outros</option>
                                 </select>
                             </div>
@@ -166,14 +164,4 @@
 </div>
 </div>
 
-<script>
-    $(document).ready(function () {
-        $("#myInput").on("keyup", function () {
-            var value = $(this).val().toLowerCase();
-            $("#myTable tr").filter(function () {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-        });
-    });
-</script>
 <?php require_once("./inc/footer.php"); ?>

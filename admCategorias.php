@@ -1,8 +1,6 @@
-<?php $tituloDaPagina = "Historico de Pedidos" ?>
+<?php $tituloDaPagina = "Editar Categorias" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <main class="container" id="barraPedidos">
     <h2 id="caixaPedidos">Categorias</h2>
@@ -64,7 +62,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Bolsas</p>
+                        <h4>Bolsas</h4>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
@@ -94,7 +92,7 @@
                     <form class="container">
                         <div class="form-group">
                             <input type="text" class="form-control" id="categoriasInput"
-                                aria-describedby="categoriaNova" placeholder="Insira uma categoria nova">
+                                aria-describedby="categoriaNova" placeholder="Insira uma nova categoria">
                         </div>
                         <div class="modal-footer">
         <button type="button" class="btn btn-primary">Adicionar</button>
@@ -107,14 +105,5 @@
 </div>
 </div>
 
-<script>
-    $(document).ready(function () {
-        $("#myInput").on("keyup", function () {
-            var value = $(this).val().toLowerCase();
-            $("#myTable tr").filter(function () {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-        });
-    });
-</script>
+
 <?php require_once("./inc/footer.php"); ?>

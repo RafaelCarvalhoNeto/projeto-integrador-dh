@@ -1,8 +1,6 @@
-<?php $tituloDaPagina = "Historico de Pedidos" ?>
+<?php $tituloDaPagina = "Mensagens" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <main class="container" id="barraPedidos">
     <h2 id="caixaPedidos">Mensagens</h2>
@@ -13,17 +11,18 @@
         <table class="table">
             <thead>
                 <tr>
-                    <!-- Por alguma razao as paginas Adm nao estao puxando codigo CSS entao inclui style individual em cada imagem -->
+                    <th scope="col">ID</th>
                     <th scope="col">Nome</th>
                     <th scope="col">Sobrenome</th>
                     <th scope="col">E-mail</th>
                     <th scope="col">Assunto</th>
-                    <th scope="col">Acoes</th>
+                    <th scope="col">Ações</th>
 
                 </tr>
             </thead>
             <tbody id="myTable">
                 <tr>
+                    <td scope="row">$idMensagem</td>    
                     <td scope="row">Fulano</td>
                     <td scope="row">Da Silva</td>
                     <td scope="row">fulano@gmail.com</td>
@@ -69,7 +68,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Mensagem</h5>
+                        <h5 class="modal-title">$idMensagem</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -88,7 +87,7 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="inputEmail">Email</label>
+                <label for="inputEmail">E-mail</label>
                 <input type="email" readonly class="form-control-plaintext" placeholder="$email" aria-describedby="emailHelp" id="inputEmail" name="inputEmail" required>
             </div>
                 <div class="form-group col-md-6">
@@ -104,8 +103,7 @@
                 </div>
                 <br>
                 <div class="form-group col-auto clearfix px-0">
-                    <button type="submit" class="btn btn-dark float-right ml-2" data-toggle="modal" data-target="#modalTeste">Enviar</button>
-                    <button type="reset" class="btn btn-secondary float-right">Limpar</button>
+                    <button type="submit" class="btn btn-dark float-right ml-2" data-toggle="modal" data-target="#modalTeste">Responder</button>
                 </div>
                     </form>
                 </div>
@@ -115,14 +113,4 @@
 </div>
 </div>
 
-<script>
-    $(document).ready(function () {
-        $("#myInput").on("keyup", function () {
-            var value = $(this).val().toLowerCase();
-            $("#myTable tr").filter(function () {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-        });
-    });
-</script>
 <?php require_once("./inc/footer.php"); ?>
