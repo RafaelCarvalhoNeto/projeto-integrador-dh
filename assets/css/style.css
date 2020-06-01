@@ -153,6 +153,10 @@ footer {
     background-color: #fff;
     border-color: #fff;
 }
+/* Por alguma razao as paginas Adm nao estao puxando este codigo entao inclui style individual em cada imagem*/
+img#thumbProduto{
+    max-width: 50px !important;
+}
 
 
 @media only screen and (min-width: 425px) {
