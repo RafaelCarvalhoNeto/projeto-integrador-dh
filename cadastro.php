@@ -15,18 +15,12 @@
             <input type="text" class="form-control" placeholder="Insira seu sobrenome" aria-describedby="sobrenomeCadastroHelp" id="inputSobrenome" name="inputSobrenome" required>
         </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-8">
-                <label for="inputEndereco">Endereço</label>
-                <input type="text" class="form-control" placeholder="Insira seu endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
-            </div>
-            
-            <div class="form-group col-md-4">
-                <label for="inputCpf">CPF</label>
-                <input type="text" class="form-control" placeholder="Insira seu CPF" aria-describedby="cpfCadastroHelp" id="inputCpf" name="inputCpf" required>
-            </div>
-        </div>
 
+        <div class="form-group">
+        <label for="inputEndereco">Endereço</label>
+        <input type="text" class="form-control" placeholder="Insira seu endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
+        </div>
+        
         <div class="form-row">
         <div class="form-group col-md-3">
             <label for="inputCep">CEP</label>

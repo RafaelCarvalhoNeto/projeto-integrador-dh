@@ -2,9 +2,9 @@
     <div id="footer">
       <div class="container text-white bg-dark p-4">
         <div class="row">
-          <div class="col-6 col-md-8 col-lg-7">
+          <div class="col-lg-12">
             <div class="row text-center">
-              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <div class="col-sm-6 col-md-4 col-12">
                 <ul class="list-unstyled">
                   <li class="btn-link"> <a>Link </a> </li>
                   <li class="btn-link"> <a>Link </a> </li>
@@ -13,7 +13,7 @@
                   <li class="btn-link"> <a>Link </a> </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <div class="col-sm-6 col-md-4">
                 <ul class="list-unstyled">
                   <li class="btn-link"> <a>Link </a> </li>
                   <li class="btn-link"> <a>Link </a> </li>
@@ -22,7 +22,7 @@
                   <li class="btn-link"> <a>Link </a> </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <div class="col-sm-6 col-md-4">
                 <ul class="list-unstyled">
                   <li class="btn-link"> <a>Link </a> </li>
                   <li class="btn-link"> <a>Link </a> </li>
@@ -33,7 +33,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-lg-12 text-center">
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-lg-12 text-center">
             <address>
               <strong>Ecommerce, Inc.</strong><br>
               Rua Alameda Santos 110<br>

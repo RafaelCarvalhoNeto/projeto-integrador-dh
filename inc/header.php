@@ -9,45 +9,46 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.php">Inicial<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Produtos</a>
-                        </li>
+                    <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre nós</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Contato</a>
+                                <a class="dropdown-item" href="contato.php">Contato</a>
                                 <a class="dropdown-item" href="institucional.php">Institucional</a>
                                 <a class="dropdown-item" href="politicas.php">Termos de uso</a>
-                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="politicas.php">Politicas de Privacidade</a>
                             </div>
                         </li>
-                        <li class="nav-item" id="cadastro">
-                            <a class="nav-link" href="cadastro.php">Cadastro</a>
-                        </li>
-                        <li class="nav-item" id="login">
-                            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
-                        </li>
-
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <form class="form-inline ml-auto p-2 my-0">
+                        <div class="input-group" id="busca">
+                            <input class="form-control border-0" type="search" placeholder="Busca" aria-label="Search">
+                            <div class="input-group-append">
+                                <button class="search btn" type="submit"></button>
+                            </div>
+                        </div>
                     </form>
+                    <a class="d-flex flex-column text-white m-2" href="#" data-toggle="modal" data-target="#modalLogin">
+                        <small class="login m-0">Olá, faça seu login</small>
+                        <small class="login m-0">ou cadastre-se</small>
+                    </a>
+                    
+
+                    <a class="btn btn-outline-warning px-4 ml-2 arrendonar" href="carrinho.php"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
         </nav>
         <div class="subnav">
-            <ul>
-                <li><a href="./ofertas.php">Ofertas</a></li>
-                <li><a href="./livros.php">Livros</a></li>
-                <li><a href="./eletronicos.php">Eletrônicos</a></li>
-                <li><a href="./bolsas.php">Bolsas</a></li>
-            </ul>
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li><a href="./ofertas.php">Ofertas</a></li>
+                        <li><a href="./livros.php">Livros</a></li>
+                        <li><a href="./eletronicos.php">Eletrônicos</a></li>
+                        <li><a href="./bolsas.php">Bolsas</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
