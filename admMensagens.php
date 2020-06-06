@@ -3,7 +3,7 @@
 <?php require_once("./inc/header.php"); ?>
 
 <main class="container" id="barraPedidos">
-    <h2 id="caixaPedidos">Mensagens</h2>
+    <h2 id="caixaPedidos"><?= $tituloDaPagina?></h2>
     <p>Pesquise por uma Mensagem:</p>
     <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
     <br>

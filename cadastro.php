@@ -1,9 +1,9 @@
-<?php $tituloDaPagina = "Ecommerce.com: Compre os melhores produtos!" ?>
+<?php $tituloDaPagina = "Cadastro" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
 <main class="container px-5">
-    <h1 class="p-3">Cadastro</h1>
+    <h1 class="p-3"><?= $tituloDaPagina?></h1>
     <form action="" method="post" id="formCadastro">                          
         <div class="form-row">
         <div class="form-group col-md-6">

@@ -25,7 +25,7 @@
                         <div class="input-group" id="busca">
                             <input class="form-control border-0" type="search" placeholder="Busca" aria-label="Search">
                             <div class="input-group-append">
-                                <button class="search btn" type="submit"></button>
+                            <button class="search btn" type="button" onclick="location.href='busca.php';"></button>
                             </div>
                         </div>
                     </form>

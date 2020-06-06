@@ -3,7 +3,7 @@
 <?php require_once("./inc/header.php"); ?>
 
 <main class="container" id="barraPedidos">
-    <h2 id="caixaPedidos">Categorias</h2>
+    <h2 id="caixaPedidos"><?= $tituloDaPagina?></h2>
     <p>Pesquise por uma Categoria:</p>
     <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
     <br>
