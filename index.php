@@ -15,29 +15,20 @@
 
           <div class="carousel-item active">
             <img class="d-block w-100"
-              src="./assets/img/livros-poster.png" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Item 1 Heading</h3>
-              <p>Item 1 Description</p>
-            </div>
+              src="./assets/img/banner-01.png" alt="First slide">
+
           </div>
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="./assets/img/bolsas-poster.png" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Item 2 Heading</h3>
-              <p>Item 2 Description</p>
-            </div>
+              src="./assets/img/banner-02.png" alt="Second slide">
+
           </div>
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="./assets/img/eletronicos-poster.png" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Item 3 Heading</h3>
-              <p>Item 3 Description</p>
-            </div>
+              src="./assets/img/banner-03.png" alt="Third slide">
+
           </div>
         </div>
 
@@ -56,83 +47,122 @@
 
 <!-- Card deck -->
 <div class="container">
-    <h2 class="col-12 p-3 mt-3 mb-3 text-dark border-bottom">Mais Vendidos</h2>
+    <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Mais Vendidos</h2>
 
     <div class="row text-center">
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-01.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Samsung S20</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Playstation 4 com 20Gb de memoria</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0  mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-02.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Atari - Um dos primeiros do mundo</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-03.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Console PS3 com 10 jogos exlusivos</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
-        </div>       
+        </div>   
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-04.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Nintendo 64 e 4 controles e 200 jogos</h3>
+                        <p class="card-text preco">R$ 900,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>     
     </div>
 
-    <div class="row text-center mt-4">
-        <div class="col-md-4 pb-1 pb-md-0">
-            <a href="detalheProduto.php" class="link">
-                <div class="card avancar">
-                <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title" id="produto">Samsung S20</h3>
-                    <p class="card-text" id="preco">R$ 900,00</p>
-                </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-md-4 pb-1 pb-md-0">
+    <div class="row text-center">
+        <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-05.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Sega com dois controles e mais de mil jogos</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0  mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-02.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Livro the Five disfunction of a team</h3>
+                        <p class="card-text preco">R$ 50,00</p>
                     </div>
                 </div>
             </a>
-        </div>       
+        </div>
+
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-03.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Livro O Foco Tripo - Daniel Goleman</h3>
+                        <p class="card-text preco">R$ 50,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>   
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-04.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Livro A Culpa é das estrelas - John Green</h3>
+                        <p class="card-text preco">R$ 50,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>     
     </div>
+
 </div>
 
 
@@ -140,139 +170,155 @@
 </article>
 <!-- cards redondos -->
 <section class="container">
-    <h2 class="col-12 p-3 mt-3 mb-3 text-dark border-bottom">Navegue pela loja</h2>
-    <div class="row mt-4 d-flex justify-content-between">
-        <div class="col-md-3 d-flex justify-content-center">
+    <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Navegue pela loja</h2>
+    <div class="row mt-4">
+        <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
             <img src="assets\img\ofertas.jpg">
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
             <img src="assets\img\livros.jpg">
 
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
             <img src="assets\img\moveis.jpg">
             
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
             <img src="assets\img\copos.jpg">
 
         </div>
 
     </div>
 </section>
-<!-- <div class="container">
-  <section id="catR" class="row ml-5 mr-5">
 
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <div class="mb-3">
-          <a href="#">
-            <img id="redonda" src="assets\img\ofertas.jpg" class alt=".h-100">
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="assets\img\livros.jpg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="assets\img\moveis.jpg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-      <div class="mb-3">
-        <a href="#">
-          <img id="redonda" src="assets\img\copos.jpg" class alt=".h-100">
-        </a>
-      </div>
-    </div>
-</div>
-</section> -->
 <!-- card deck -->
 <div class="container">
-    <h2 class="col-12 p-3 mt-3 mb-3 text-dark border-bottom">Ofertas</h2>
+  <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Ofertas</h2>
 
     <div class="row text-center">
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
+                    <div class="card-header bg-success text-white text-center">
+                        <p class="faixa-promo">Promoção</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-10.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Samsung S20</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Livro O Livros dos Títulos - Kniha Nazvu</h3>
+                        <p class="card-text preco">R$ 50,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0  mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
+                    <div class="card-header bg-success text-white text-center">
+                        <p class="faixa-promo">Promoção</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-05.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Livro Glossário da capa colorida</h3>
+                        <p class="card-text preco">R$ 50,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
+                    <div class="card-header bg-danger text-white text-center">
+                        <p class="faixa-promo">10% de desconto</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-06.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Livro O Cirurgião - Tess Gerritsen</h3>
+                        <p class="card-text preco">R$ 50,00</p>
                     </div>
                 </div>
             </a>
-        </div>       
+        </div>   
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-header bg-danger text-white text-center">
+                        <p class="faixa-promo">10% de desconto</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-06.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Notebook Positivo 20GB 350RAM</h3>
+                        <p class="card-text preco">R$ 2.000,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>     
     </div>
 
-    <div class="row text-center mt-4">
-        <div class="col-md-4 pb-1 pb-md-0">
+    <div class="row text-center">
+        <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title" id="produto">Samsung S20</h3>
-                    <p class="card-text" id="preco">R$ 900,00</p>
-                </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-md-4 pb-1 pb-md-0">
-            <a href="detalheProduto.php">
-                <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-07.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Notebook Samsung New Generation i9 10TB</h3>
+                        <p class="card-text preco">R$ 2.000,00</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4 pb-1 pb-md-0">
+        <div class="col-md-3 pb-1 pb-md-0  mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
-                    <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\eletronico-09.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Notebook HP Pavillon X200, 250TB RAM</h3>
+                        <p class="card-text preco">R$ 2.000,00</p>
                     </div>
                 </div>
             </a>
-        </div>       
+        </div>
+
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-07.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Livro Queremos nos Calar - Mel Duarte</h3>
+                        <p class="card-text preco">R$ 50,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>   
+        <div class="col-md-3 pb-1 pb-md-0">
+            <a href="detalheProduto.php">
+                <div class="card avancar">
+                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                        <img src="assets\img\livro-08.png" alt="Card image cap" width="140px" height="140px">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title produto">Livro 1984 - George Orwel</h3>
+                        <p class="card-text preco">R$ 50,00</p>
+                    </div>
+                </div>
+            </a>
+        </div>     
     </div>
 </div>
 

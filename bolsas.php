@@ -15,8 +15,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Samsung S20</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Samsung S20</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -27,8 +27,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Computador Zika</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -39,8 +39,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Controle PS5</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -53,8 +53,8 @@
                 <div class="card avancar">
                 <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h3 class="card-title" id="produto">Samsung S20</h3>
-                    <p class="card-text" id="preco">R$ 900,00</p>
+                    <h3 class="card-title produto">Samsung S20</h3>
+                    <p class="card-text preco">R$ 900,00</p>
                 </div>
                 </div>
             </a>
@@ -65,8 +65,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Computador Zika</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -77,8 +77,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Controle PS5</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -91,8 +91,8 @@
                 <div class="card avancar">
                 <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h3 class="card-title" id="produto">Samsung S20</h3>
-                    <p class="card-text" id="preco">R$ 900,00</p>
+                    <h3 class="card-title produto">Samsung S20</h3>
+                    <p class="card-text preco">R$ 900,00</p>
                 </div>
                 </div>
             </a>
@@ -103,8 +103,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Computador Zika</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -115,8 +115,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Controle PS5</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -129,8 +129,8 @@
                 <div class="card avancar">
                 <img class="card-img-top mt-3" src="assets\img\celular.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h3 class="card-title" id="produto">Samsung S20</h3>
-                    <p class="card-text" id="preco">R$ 900,00</p>
+                    <h3 class="card-title produto">Samsung S20</h3>
+                    <p class="card-text preco">R$ 900,00</p>
                 </div>
                 </div>
             </a>
@@ -141,8 +141,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\computador.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Computador Zika</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Computador Zika</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
@@ -153,8 +153,8 @@
                 <div class="card avancar">
                     <img class="card-img-top mt-3" src="assets\img\controle-ps5.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title" id="produto">Controle PS5</h3>
-                        <p class="card-text" id="preco">R$ 900,00</p>
+                        <h3 class="card-title produto">Controle PS5</h3>
+                        <p class="card-text preco">R$ 900,00</p>
                     </div>
                 </div>
             </a>
