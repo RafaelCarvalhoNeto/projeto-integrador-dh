@@ -4,7 +4,6 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-weight: 400;
     font-style: normal;
 }
 a,
@@ -24,7 +23,7 @@ header {
 .subnav{
     background-color: #313f8f;
 }
-.subnav ul {
+.subnav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -83,26 +82,46 @@ footer {
     color: white;
     width: 100%;
     margin: auto;
+    filter: drop-shadow(-10px 0 5px grey);
+
+}
+.link-footer a{
+    list-style: none;
+    flex: 1;
+    padding: 20px 0;
 }
 
-#produto {
-    text-align: left;
-    font-size: 1.2em;
-    color: rgb(39, 39, 39);
+.link-footer a:hover {
+    background-color: #273273;
 }
-#preco{
+.link-footer a{
+    color: grey !important;
+}
+.link-footer a:hover{
+    color: #fff !important;
+}
+
+.card {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+.produto {
+    text-align: left;
+    font-size: 1em;
+    color: rgb(39, 39, 39);
+    
+}
+.preco{
     text-align: left;
     font-size: 1.5em;
     color: #000;
+    font-weight: bold;
 }
 
 #footer a {
     color: white;
 }
 
-.card {
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
-}
 
 .avancar{
     transition: all 0.3s ease-in-out
@@ -156,6 +175,17 @@ footer {
 /* Por alguma razao as paginas Adm nao estao puxando este codigo entao inclui style individual em cada imagem*/
 img#thumbProduto{
     max-width: 50px !important;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color:#273273 !important;
+}
+
+.faixa-promo{
+    margin: 0;
+    font-size: bold;
 }
 
 
