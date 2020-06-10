@@ -1,0 +1,14 @@
+{
+    "usuarios": [{
+        "id": 1,
+        "inputNome": "João",
+        "inputSobrenome": "Carvalho",
+        "inputEndereco": "Rua 11, Quadra 09",
+        "inputCep": "06450-000",
+        "inputCidade": "S\u00e3o Paulo",
+        "inputUF": "AL",
+        "inputEmail": "rafael.carvalho@gmail.com",
+        "inputSenha": "123456",
+        "aceita": "on"
+    }]
+}
