@@ -46,10 +46,10 @@
 </div>
 
 <!-- Card deck -->
-<div class="container">
+<section class="container">
     <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Mais Vendidos</h2>
 
-    <div class="row text-center">
+    <div class="row text-center mt-4">
         <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
@@ -163,11 +163,8 @@
         </div>     
     </div>
 
-</div>
+</section>
 
-
-
-</article>
 <!-- cards redondos -->
 <section class="container">
     <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Navegue pela loja</h2>
@@ -192,10 +189,10 @@
 </section>
 
 <!-- card deck -->
-<div class="container">
+<section class="container">
   <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Ofertas</h2>
 
-    <div class="row text-center">
+    <div class="row text-center mt-4">
         <div class="col-md-3 pb-1 pb-md-0 mb-3">
             <a href="detalheProduto.php">
                 <div class="card avancar">
@@ -320,7 +317,7 @@
             </a>
         </div>     
     </div>
-</div>
+</section>
 
 
 <?php require_once("./inc/footer.php"); ?>

@@ -3,10 +3,8 @@
 <?php require_once("./inc/header.php"); ?>
 
 <main class="container">
-    <h1 class="p-3">Entre em Contato Conosco!</h1>
-    <hr>
+    <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Entre em Contato Conosco!</h2>
     <p>Somos uma empresa que ouve nossos clientes. Nos mande um email! </p>
-    <br>
     <form action="" method="post" id="formContato">
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -37,7 +35,7 @@
                 </div>
                 <br>
                 <div class="form-group col-auto clearfix px-0">
-                    <button type="submit" class="btn btn-dark float-right ml-2" data-toggle="modal" data-target="#modalTeste">Enviar</button>
+                    <button type="submit" class="btn btn-primary float-right ml-2" data-toggle="modal" data-target="#modalTeste">Enviar</button>
                     <button type="reset" class="btn btn-secondary float-right">Limpar</button>
                 </div>
     </form>

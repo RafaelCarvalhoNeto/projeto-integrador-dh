@@ -43,12 +43,12 @@
 
 
 
-<?php $tituloDaPagina = "Ecommerce.com: Compre os melhores produtos!" ?>
+<?php $tituloDaPagina = "Cadastro" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
-<main class="container px-5">
-    <h1 class="p-3">Cadastro</h1>
+<main class="container ajuste">
+    <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Cadastro</h1>
     <form action="cadastro.php" method="post" id="formCadastro">                          
         <div class="form-row">
         <div class="form-group col-md-6">
@@ -132,7 +132,7 @@
         </div>
 
         <div class="form-group col-auto clearfix px-0">
-        <button type="submit" class="btn btn-dark float-right ml-2" data-toggle="modal" data-target="#modalTeste">Cadastrar</button>
+        <button type="submit" class="btn btn-primary float-right ml-2" data-toggle="modal" data-target="#modalTeste">Cadastrar</button>
         <button type="reset" class="btn btn-secondary float-right">Limpar</button>
         </div>
 
