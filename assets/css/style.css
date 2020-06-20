@@ -71,7 +71,14 @@ body {
 .navbar-brand {
     color: white !important;
 }
-
+aside {
+    height: 60vh;
+    width: 100vh;
+}
+aside h1{
+    color: rgba(138, 136, 136, 0.973) !important;
+    
+}
 section {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -144,7 +151,6 @@ footer {
 #table {
     overflow-x:auto !important;
 }
-
 .search{
     background-image: url(../img/lupa.png);
     background-color: white;
@@ -201,6 +207,10 @@ h2, h1{
         display: inherit;
     }
     #institucional {
+        max-width: 1140px;
+        margin: auto;
+    }
+    #error {
         max-width: 1140px;
         margin: auto;
     }
