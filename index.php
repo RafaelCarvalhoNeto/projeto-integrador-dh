@@ -170,19 +170,18 @@
     <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Navegue pela loja</h2>
     <div class="row mt-4">
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <img src="assets\img\ofertas.jpg">
+            <a href="ofertas.php"><img src="assets\img\ofertas.jpg" id="icones"></a>
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <img src="assets\img\livros.jpg">
+            <a href=""><img src="assets\img\livros.jpg" id="icones"></a>
 
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <img src="assets\img\moveis.jpg">
+            <a href=""><img src="assets\img\moveis.jpg" id="icones"></a>
             
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <img src="assets\img\copos.jpg">
-
+            <a href=""><img src="assets\img\copos.jpg" id="icones"></a>
         </div>
 
     </div>
@@ -318,6 +317,5 @@
         </div>     
     </div>
 </section>
-
 
 <?php require_once("./inc/footer.php"); ?>
