@@ -2,42 +2,61 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
-<main class="container" id="barraPedidos">
-    <h2 id="caixaPedidos"><?= $tituloDaPagina?></h2>
-    <p>Pesquise por uma Mensagem:</p>
-    <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
-    <br>
-    <div id="table">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Sobrenome</th>
-                    <th scope="col">E-mail</th>
-                    <th scope="col">Assunto</th>
-                    <th scope="col">Ações</th>
+<section class="jumbotron jumbotron-fluid py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex text-center">
+                <p class="mr-3 my-auto"><strong>Menu Administrativo (Provisório)</strong></p>
+                <a class="mr-3 my-auto" href="admCategorias.php">Categorias</a>
+                <a class="mr-3 my-auto" href="admMensagens.php">Mensagens</a>
+                <a class="mr-3 my-auto" href="admProdutos.php">Produtos</a>
+                <a class="mr-3 my-auto" href="admUsuarios.php">Usuarios</a>
+            </div>
+        </div>
+    </div>
+</section>
+<main class="container ajuste" id="barraPedidos">
+    <div class="row">
+        <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Mensagens</h2>
+        <div class="col-12 mt-3 mb-3">
+            <p>Pesquise por uma Mensagem:</p>
+            <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
+            <div id="table">
+                <table class="table table-striped text-center mt-3">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Sobrenome</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Assunto</th>
+                            <th scope="col">Ações</th>
+                        </tr>
+                    </thead>
 
-                </tr>
-            </thead>
-            <tbody id="myTable">
-                <tr>
-                    <td scope="row">$idMensagem</td>    
-                    <td scope="row">Fulano</td>
-                    <td scope="row">Da Silva</td>
-                    <td scope="row">fulano@gmail.com</td>
-                    <td scope="row">Maquina quebrada</td>
-                    <td>
-                    <a href="#" data-toggle="modal" data-target="#modalAbrir">
-                            <i class="fas fa-envelope"></i>
-                        </a>    
-                    <a href="#" data-toggle="modal" data-target="#modalExcluir">
-                            <i class="fas fa-trash"></i>
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    <tbody id="myTable">
+                        <tr>
+                            <td scope="row">$idMensagem</td>    
+                            <td scope="row">Fulano</td>
+                            <td scope="row">Da Silva</td>
+                            <td scope="row">fulano@gmail.com</td>
+                            <td scope="row">Maquina quebrada</td>
+                            <td>
+                            <a href="#" data-toggle="modal" data-target="#modalAbrir">
+                                    <i class="fas fa-envelope"></i>
+                                </a>    
+                            <a href="#" data-toggle="modal" data-target="#modalExcluir">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
         <!-- Modal Excluir -->
         <div class="modal fade" id="modalExcluir" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">

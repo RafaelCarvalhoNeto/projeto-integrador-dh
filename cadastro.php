@@ -1,10 +1,55 @@
+<?php
+
+    if(isset($_POST) && $_POST){
+
+        $nome = $_POST["inputNome"];
+        $sobrenome = $_POST["inputSobrenome"];
+        $endereco = $_POST["inputEndereco"];
+        $cep = $_POST["inputCep"];
+        $cidade = $_POST["inputCidade"];
+        $uf = $_POST["inputUF"];
+        $email = $_POST["inputEmail"];
+        $senha = $_POST["inputSenha"];
+        $aceite = $_POST["aceita"];
+
+        $usuariosJson = file_get_contents("./data/usuarios.json");
+
+        $arrayUsuarios = json_decode($usuariosJson, true);
+
+        $ultimoUsuario = end($arrayUsuarios["usuarios"]);
+
+        $novoUsuario = [
+        "id" => $ultimoUsuario["id"] + 1,
+        "inputNome" => $nome,
+        "inputSobrenome" => $sobrenome,
+        "inputEndereco" => $endereco,
+        "inputCep" => $cep,
+        "inputCidade" => $cidade,
+        "inputUF" => $uf,
+        "inputEmail" => $email,
+        "inputSenha" => $senha,
+        "aceita" => $aceite
+        ];
+        
+        array_push($arrayUsuarios["usuarios"], $novoUsuario);
+
+        $jsonUsuarios = json_encode($arrayUsuarios);
+
+        $cadastrou = file_put_contents("./data/usuarios.json",$jsonUsuarios);
+    }
+
+
+?>
+
+
+
 <?php $tituloDaPagina = "Cadastro" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
-<main class="container px-5">
-    <h1 class="p-3"><?= $tituloDaPagina?></h1>
-    <form action="" method="post" id="formCadastro">                          
+<main class="container ajuste">
+    <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Cadastro</h1>
+    <form action="cadastro.php" method="post" id="formCadastro">                          
         <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputNome">Nome</label>
@@ -72,11 +117,11 @@
 
         <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="inputConfirma">Senha</label>
+            <label for="inputSenha">Senha</label>
             <input type="password" name="inputSenha" class="form-control" placeholder="Senha" aria-describedby="senhaHelp" id="inputSenha" required> 
         </div>
         <div class="form-group col-md-6">
-            <label for="inputSobrenome">Confirma Senha</label>
+            <label for="inputConfirma">Confirma Senha</label>
             <input type="password" class="form-control" placeholder="Confirma senha" aria-describedby="ConfirmaHelp" id="inputConfirma" name="inputConfirma" required>
         </div>
         </div>
@@ -87,8 +132,20 @@
         </div>
 
         <div class="form-group col-auto clearfix px-0">
-        <button type="submit" class="btn btn-dark float-right ml-2" data-toggle="modal" data-target="#modalTeste">Cadastrar</button>
+        <button type="submit" class="btn btn-primary float-right ml-2" data-toggle="modal" data-target="#modalTeste">Cadastrar</button>
         <button type="reset" class="btn btn-secondary float-right">Limpar</button>
+        </div>
+
+        <div class="form-group">
+            <?php
+                if(isset($_POST) && $_POST){
+                    if($cadastrou){
+                        echo '<div class="col-md-6 mt-2 alert alert-success">Usuário cadastrado com sucesso</div>';
+                    } else {
+                        echo '<div class="col-md-6 mt-2 alert alert-danger">Falha ao processar requisição</div>';
+                    }
+                }
+            ?>
         </div>
     </form> 
 

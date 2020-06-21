@@ -1,10 +1,14 @@
 /*RESETS*/
+:root{
+    --primary-color: #273273;
+    --secondary-color: #6777d1;
+}
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-weight: 400;
     font-style: normal;
 }
 a,
@@ -13,9 +17,13 @@ a:hover,
 a:visited {
     text-decoration: none;
 }
+/*O ajuste regula o tamanho da página para que seja o total da página - o tamanho do header*/
+.ajuste{
+    min-height: calc(100vh - 128px);
+}
 
 header {
-    background-color: #273273;
+    background-color: var(--primary-color);
 }
 
 #login {
@@ -24,7 +32,7 @@ header {
 .subnav{
     background-color: #313f8f;
 }
-.subnav ul {
+.subnav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,13 +65,20 @@ body {
 }
 
 .bg-dark {
-    background-color: #273273 !important;
+    background-color: var(--primary-color) !important;
 }
 
 .navbar-brand {
     color: white !important;
 }
-
+aside {
+    height: 60vh;
+    width: 100vh;
+}
+aside h1{
+    color: rgba(138, 136, 136, 0.973) !important;
+    
+}
 section {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -71,7 +86,7 @@ section {
 
 footer {
     width: 100vw;
-    background-color: #273273 !important;
+    background-color: var(--primary-color) !important;
 }
 
 #carrosel {
@@ -79,29 +94,48 @@ footer {
 }
 
 #footer {
-    background-color: #273273 !important;
+    background-color: var(--primary-color) !important;
     color: white;
     width: 100%;
     margin: auto;
+    filter: drop-shadow(-10px 0 5px grey);
+
+}
+.link-footer a{
+    list-style: none;
+    flex: 1;
+    padding: 20px 0;
 }
 
-#produto {
-    text-align: left;
-    font-size: 1.2em;
-    color: rgb(39, 39, 39);
+.link-footer a:hover {
+    background-color: var(--primary-color);
 }
-#preco{
-    text-align: left;
-    font-size: 1.5em;
-    color: #000;
+.link-footer a{
+    color: grey !important;
 }
-
-#footer a {
-    color: white;
+.link-footer a:hover{
+    color: #fff !important;
 }
 
 .card {
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+.produto {
+    text-align: left;
+    font-size: 1em;
+    color: rgb(39, 39, 39);
+    
+}
+.preco{
+    text-align: left;
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+}
+
+#footer a {
+    color: white;
 }
 
 .avancar{
@@ -113,25 +147,9 @@ footer {
     box-shadow: #000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-#politicas {
-    background-color: #ededed;
-}
-#privacidade {
-    padding-top: 15px !important;
-    padding-bottom: 10px !important;
-}
 
 #table {
     overflow-x:auto !important;
-}
-#institucional {
-    margin-top: 35px !important;
-    padding-top: 15px;
-    background-color: #ededed;
-}
-
-#historia {
-    margin-top: 0 !important;
 }
 .search{
     background-image: url(../img/lupa.png);
@@ -158,6 +176,38 @@ img#thumbProduto{
     max-width: 50px !important;
 }
 
+h2, h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.faixa-promo{
+    margin: 0;
+    font-size: bold;
+}
+
+.btn-primary{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+.btn-secondary{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+.btn-primary:hover, .btn-secondary:hover{
+    filter: saturate(2);
+}
+
+#icones{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+#icones:hover{
+    transform: rotate(360deg) scale(1.05);
+}
 
 @media only screen and (min-width: 425px) {
 
@@ -165,6 +215,10 @@ img#thumbProduto{
         display: inherit;
     }
     #institucional {
+        max-width: 1140px;
+        margin: auto;
+    }
+    #error {
         max-width: 1140px;
         margin: auto;
     }

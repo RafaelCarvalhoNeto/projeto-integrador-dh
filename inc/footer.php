@@ -1,39 +1,20 @@
-  <footer class="container-fluid mt-5 mb-0 mx-0 pt-5 px-0">
+  <footer class="container-fluid mt-5 mb-0 mx-0 px-0">
     <div id="footer">
-      <div class="container text-white bg-dark p-4">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row text-center">
-              <div class="col-sm-6 col-md-4 col-12">
-                <ul class="list-unstyled">
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                </ul>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <ul class="list-unstyled">
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                </ul>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <ul class="list-unstyled">
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                  <li class="btn-link"> <a>Link </a> </li>
-                </ul>
-              </div>
+      <div class=" bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-between my-0 text-center link-footer">
+              <a href="./ofertas.php">Ofertas</a>
+              <a href="./livros.php">Livros</a>
+              <a href="./eletronicos.php">Eletrônicos</a>
+              <a href="./bolsas.php">Bolsas</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="container text-white bg-dark p-4">
+          
+
 
         <div class="row">
           <div class="col-md-12 col-lg-12 text-center">
@@ -50,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="d-flex flex-row flex-nowrap justify-content-center py-3 " id="footer">
+      <div class="d-flex flex-row flex-nowrap justify-content-center py-3 text-center">
         <small>xxxx &copy; | CNPJ 01.012.012/0001-99 | <a href="#" title="Políticas e Termos" data-toggle="modal"
             data-target="#modalPoliticas">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções"
             data-toggle="modal" data-target="#modalTrocas">Trocas e Devoluções</a></small>

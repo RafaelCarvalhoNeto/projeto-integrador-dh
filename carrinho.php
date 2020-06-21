@@ -1,4 +1,4 @@
-<?php $tituloDaPagina = "Ecommerce.com: Compre os melhores produtos!" ?>
+<?php $tituloDaPagina = "Carrinho" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4">Carrinho</h1>
+                <h1 class="p-3 mt-3 mb-3">Carrinho</h1>
             </div>
         </div>
     </div>

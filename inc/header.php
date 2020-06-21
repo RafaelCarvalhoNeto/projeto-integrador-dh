@@ -2,7 +2,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.php">Ecommerce</a>
+                <a class="navbar-brand" href="index.php">
+                    <img src="./assets/img/logo.png" alt="Logo" width=65px height=50px>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,7 +27,7 @@
                         <div class="input-group" id="busca">
                             <input class="form-control border-0" type="search" placeholder="Busca" aria-label="Search">
                             <div class="input-group-append">
-                            <button class="search btn" type="button" onclick="location.href='busca.php';"></button>
+                                <button class="search btn" type="submit"></button>
                             </div>
                         </div>
                     </form>
