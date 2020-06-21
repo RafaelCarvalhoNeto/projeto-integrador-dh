@@ -182,7 +182,6 @@
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
             <a href=""><img src="assets\img\copos.jpg" id="icones"></a>
-
         </div>
 
     </div>
