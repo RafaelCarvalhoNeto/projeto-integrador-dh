@@ -174,7 +174,24 @@ footer {
 #footer a {
     color: white;
 }
-
+.redes-sociais{
+    font-size: 1.5em;
+}
+.redes-sociais .fa-instagram:hover{
+    color: rgb(255, 94, 0);
+}
+.redes-sociais .fa-facebook:hover{
+    color: rgb(0, 102, 255);
+}
+.redes-sociais .fa-twitter:hover{
+    color: rgb(0, 204, 255);
+}
+.redes-sociais .fa-pinterest:hover{
+    color: red;
+}
+address{
+    font-size: 0.9em;
+}
 
 /* TABELAS */
 
