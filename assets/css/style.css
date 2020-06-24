@@ -21,7 +21,17 @@ a:visited {
 .ajuste{
     min-height: calc(100vh - 128px);
 }
+.bg-dark {
+    background-color: var(--primary-color) !important;
+}
+h2, h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
 
+
+/* HEADER */
 header {
     background-color: var(--primary-color);
 }
@@ -39,7 +49,6 @@ header {
     overflow: hidden;
 
 }
-
 .subnav li {
     float: left;
 }
@@ -55,22 +64,71 @@ header {
 .subnav li a:hover {
     background-color: #75B8BF;
 }
-
+.navbar-brand {
+    color: white !important;
+}
+.search{
+    background-image: url(../img/lupa.png);
+    background-color: #f0f0f5;
+    background-repeat: no-repeat;
+    background-size:  20px;
+    background-position: right;
+    background-position-x: 2px;
+    width: 30px;
+    border-radius: 8px ;
+}
+/* INDEX */
 body {
     background-color: #ffffff;
+}
+
+#carrosel {
+    display: none;
 }
 
 #maisvendidos {
     padding-top: 20px;
 }
-
-.bg-dark {
-    background-color: var(--primary-color) !important;
+.card {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+.produto {
+    text-align: left;
+    font-size: 1em;
+    color: rgb(39, 39, 39);
+    
+}
+.preco{
+    text-align: left;
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+}
+.avancar{
+    transition: all 0.3s ease-in-out
 }
 
-.navbar-brand {
-    color: white !important;
+.avancar:hover{
+    transform: scale(1.05);
+    box-shadow: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.faixa-promo{
+    margin: 0;
+    font-size: bold;
+}
+
+.icones{
+    border-radius: 100px;
+    width: 215px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icones:hover{
+    transform: rotate(360deg) scale(1.05);
+}
+
 aside {
     height: 60vh;
     width: 100vh;
@@ -84,22 +142,18 @@ section {
     justify-content: space-between;
 }
 
+/* FOOTER */
+
 footer {
     width: 100vw;
     background-color: var(--primary-color) !important;
 }
-
-#carrosel {
-    display: none;
-}
-
 #footer {
     background-color: var(--primary-color) !important;
     color: white;
     width: 100%;
     margin: auto;
     filter: drop-shadow(-10px 0 5px grey);
-
 }
 .link-footer a{
     list-style: none;
@@ -117,52 +171,31 @@ footer {
     color: #fff !important;
 }
 
-.card {
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
-    font-family: 'Roboto';
-}
-.produto {
-    text-align: left;
-    font-size: 1em;
-    color: rgb(39, 39, 39);
-    
-}
-.preco{
-    text-align: left;
-    font-size: 1.5em;
-    color: #000;
-    font-weight: bold;
-}
-
 #footer a {
     color: white;
 }
 
-.avancar{
-    transition: all 0.3s ease-in-out
-}
 
-.avancar:hover{
-    transform: scale(1.05);
-    box-shadow: #000;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+/* TABELAS */
 
 #table {
     overflow-x:auto !important;
 }
-.search{
-    background-image: url(../img/lupa.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size:  20px;
-    background-position: right;
-    background-position-x: 2px;
-    width: 30px;
-}
+
 .arrendonar{
     border-radius: 100px;
 }
+
+/* Por alguma razao as paginas Adm nao estao puxando este codigo entao inclui style individual em cada imagem*/
+img#thumbProduto{
+    max-width: 50px !important;
+}
+
+
+
+
+/* BOTÕES */
+
 .btn-outline-warning{
     color: #fff;
     border-color: #fff;
@@ -171,22 +204,6 @@ footer {
     background-color: #fff;
     border-color: #fff;
 }
-/* Por alguma razao as paginas Adm nao estao puxando este codigo entao inclui style individual em cada imagem*/
-img#thumbProduto{
-    max-width: 50px !important;
-}
-
-h2, h1{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    color: var(--primary-color) !important;
-}
-
-.faixa-promo{
-    margin: 0;
-    font-size: bold;
-}
-
 .btn-primary{
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
@@ -199,16 +216,24 @@ h2, h1{
     filter: saturate(2);
 }
 
-#icones{
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 100px;
-    transition: all 0.5s ease-in-out;
+
+/* CONTATO */
+
+.fundo{
+   background-image: url(../img/fundo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
-#icones:hover{
-    transform: rotate(360deg) scale(1.05);
-}
+/* FORMS */
 
+form input.form-control, form textarea.form-control{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+}
 
 @media only screen and (min-width: 425px) {
 

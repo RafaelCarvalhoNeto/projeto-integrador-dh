@@ -6,7 +6,7 @@
     <h2 class="col-12 p-3 mt-3 mb-3 border-bottom"><?= $tituloDaPagina?></h2>
 
     <div class="mb-3 col-lg-12 px-0">
-        <img class="d-block w-100" src="https://futurelinkit.com/wp-content/uploads/2016/01/1920x500-placeholder.png" >
+        <img class="d-block w-100" src="./assets/img/banner-07.png" >
     </div>
 
     <div class="row text-center">
