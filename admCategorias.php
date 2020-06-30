@@ -5,7 +5,7 @@
 <section class="jumbotron jumbotron-fluid py-2">
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex text-center">
+            <div class="col-12 d-flex text-center flex-wrap">
                 <p class="mr-3 my-auto"><strong>Menu Administrativo (Provisório)</strong></p>
                 <a class="mr-3 my-auto" href="admCategorias.php">Categorias</a>
                 <a class="mr-3 my-auto" href="admMensagens.php">Mensagens</a>
@@ -23,33 +23,38 @@
         <div class="col-12 mt-3 mb-3">
             <p>Pesquise por uma Categoria:</p>
             <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
-            <div id="table">
+            <div id="table" class="tableAdm">
                 <table class="table table-striped text-center mt-3">
                     <thead class="thead-dark">
                         <tr>
+                            <th scope="row">ID</th>
                             <th scope="col">Categoria</th>
-                            <th scope="col">Acoes</th>
+                            <th scope="col" colspan="2">Acoes</th>
                         </tr>
                     </thead>
-                    <tbody id="myTable">
+                    <tbody>
                         <tr>
+                            <th scope="row">1</td>
                             <th scope="row">Bolsas</th>
                             <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
+                            <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>
                         <tr>
+                            <th scope="row">2</td>
                             <th scope="row">Livros</th>
                             <td>
-                                <a href="#" data-toggle="modal" data-target="#modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
                                 </a>
                             </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Eletrônicos</th>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
@@ -57,7 +62,27 @@
                             </td>
                         </tr>
                         <tr>
+                            <th scope="row">3</td>
+                            <th scope="row">Eletrônicos</th>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#" data-toggle="modal" data-target="#modal">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">4</td>
                             <th scope="row">Outros</th>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>

@@ -15,19 +15,19 @@
 
           <div class="carousel-item active">
             <img class="d-block w-100"
-              src="./assets/img/banner-01.png" alt="First slide">
+              src="./assets/img/banner-06.png" alt="First slide">
 
           </div>
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="./assets/img/banner-02.png" alt="Second slide">
+              src="./assets/img/banner-07.png" alt="Second slide">
 
           </div>
 
           <div class="carousel-item">
             <img class="d-block w-100"
-              src="./assets/img/banner-03.png" alt="Third slide">
+              src="./assets/img/banner-08.png" alt="Third slide">
 
           </div>
         </div>
@@ -170,18 +170,18 @@
     <h2 class="col-12 p-3 mt-3 mb-3 border-bottom">Navegue pela loja</h2>
     <div class="row mt-4">
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <a href="ofertas.php"><img src="assets\img\ofertas.jpg" id="icones"></a>
+            <a href="ofertas.php"><img src="assets\img\bola1.png" class="icones"></a>
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <a href=""><img src="assets\img\livros.jpg" id="icones"></a>
+            <a href=""><img src="assets\img\bola2.png" class="icones"></a>
 
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <a href=""><img src="assets\img\moveis.jpg" id="icones"></a>
+            <a href=""><img src="assets\img\bola3.png" class="icones"></a>
             
         </div>
         <div class="col-sm-6 col-md-3 d-flex justify-content-center pb-3">
-            <a href=""><img src="assets\img\copos.jpg" id="icones"></a>
+            <a href=""><img src="assets\img\bola4.png" class="icones"></a>
         </div>
 
     </div>

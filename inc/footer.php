@@ -12,17 +12,20 @@
           </div>
         </div>
       </div>
-      <div class="container text-white bg-dark p-4">
+      <div class="container text-white bg-dark pt-4">
           
-
-
         <div class="row">
           <div class="col-md-12 col-lg-12 text-center">
+            <div class="d-flex flex-row flex-nowrap justify-content-center redes-sociais mb-2">
+              <a href="#" target="_blank" title="Acesse nosso Insta"><i class="fab fa-instagram mr-2"></i></a>
+              <a href="#" target="_blank" title="Acesse nosso Face"><i class="fab fa-facebook mr-2"></i></a>
+              <a href="#" target="_blank" title="Acesse nosso Twitter"><i class="fab fa-twitter mr-2"></i></a>
+              <a href="#" target="_blank" title="Acesse nosso Pinterest"><i class="fab fa-pinterest mr-2"></i></a>
+            </div>
             <address>
               <strong>Ecommerce, Inc.</strong><br>
-              Rua Alameda Santos 110<br>
-              Sao Paulo, SP, 9110-999<br>
-              <abbr title="Telephone">Tel:</abbr> (123) 456-7890
+              Rua Alameda Santos 110, Sao Paulo, SP, 9110-999<br>
+              <abbr title="Telefone">Tel:</abbr> (123) 456-7890
             </address>
             <address>
               <strong>SAC</strong><br>
@@ -57,7 +60,7 @@
               <small id="emailHelp" class="form-text text-muted">Nunca salve seu email em computadores públicos.</small>
             </div>
             <div class="form-group">
-              <label for="senha">Password</label>
+              <label for="senha">Senha</label>
               <input type="password" class="form-control" id="senha" placeholder="insira sua senha" aria-describedby="passwordHelp">
               <small id="passwordHelp" class="form-text text-muted">Nunca salve sua senha em computadores públicos.</small>
             </div>
@@ -71,8 +74,8 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           <button type="button" class="btn btn-primary">Logar</button>
         </div>
-        <label class="container justify-content-right">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
-        <label class="container justify-content-right">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
+        <label class="container justify-content-right mb-0">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
+        <label class="container justify-content-right mb-4">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
       </div>
     </div>
   </div>
