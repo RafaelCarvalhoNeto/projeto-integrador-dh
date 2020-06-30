@@ -11,14 +11,13 @@
       <h3>Fulano da Silva</h3>
       <p>fulano@gmail.com</p>
       <a href="#">Editar perfil</a>
-      <aside class="col-md" id="barraPerfil">
     </div>
 
-    <aside class="col-md-4">
+    <div class="col-md-4">
       <div class="rounded-circle">
         <img src="https://cdn2.vectorstock.com/i/thumb-large/23/81/default-avatar-profile-icon-vector-18942381.jpg" alt="Imagem de Perfil">
       </div>
-    </aside>
+    </div>
 
   </div>
   

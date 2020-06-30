@@ -5,7 +5,7 @@
 <section class="jumbotron jumbotron-fluid py-2">
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex text-center">
+            <div class="col-12 d-flex text-center flex-wrap">
                 <p class="mr-3 my-auto"><strong>Menu Administrativo (Provisório)</strong></p>
                 <a class="mr-3 my-auto" href="admCategorias.php">Categorias</a>
                 <a class="mr-3 my-auto" href="admMensagens.php">Mensagens</a>
@@ -21,7 +21,7 @@
         <div class="col-12 mt-3 mb-3">
             <p>Pesquise por uma Mensagem:</p>
             <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
-            <div id="table">
+            <div id="table" class="tableAdm">
                 <table class="table table-striped text-center mt-3">
                     <thead class="thead-dark">
                         <tr>
@@ -30,22 +30,24 @@
                             <th scope="col">Sobrenome</th>
                             <th scope="col">E-mail</th>
                             <th scope="col">Assunto</th>
-                            <th scope="col">Ações</th>
+                            <th scope="col" colspan="2">Ações</th>
                         </tr>
                     </thead>
 
-                    <tbody id="myTable">
+                    <tbody>
                         <tr>
                             <td scope="row">$idMensagem</td>    
                             <td scope="row">Fulano</td>
                             <td scope="row">Da Silva</td>
                             <td scope="row">fulano@gmail.com</td>
                             <td scope="row">Maquina quebrada</td>
-                            <td>
-                            <a href="#" data-toggle="modal" data-target="#modalAbrir">
+                            <td scope="row">
+                                <a href="#" data-toggle="modal" data-target="#modalAbrir">
                                     <i class="fas fa-envelope"></i>
-                                </a>    
-                            <a href="#" data-toggle="modal" data-target="#modalExcluir">
+                                </a>
+                            </td>
+                            <td scope="row">
+                                <a href="#" data-toggle="modal" data-target="#modalExcluir">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>

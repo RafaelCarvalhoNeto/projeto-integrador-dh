@@ -5,7 +5,7 @@
 <section class="jumbotron jumbotron-fluid py-2">
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex text-center">
+            <div class="col-12 d-flex text-center flex-wrap">
                 <p class="mr-3 my-auto"><strong>Menu Administrativo (Provisório)</strong></p>
                 <a class="mr-3 my-auto" href="admCategorias.php">Categorias</a>
                 <a class="mr-3 my-auto" href="admMensagens.php">Mensagens</a>
@@ -23,28 +23,33 @@
         <div class="col-12 mt-3 mb-3">
             <p>Pesquise por uma Produto:</p>
             <input class="form-control" id="myInput" type="text" placeholder="Pesquisar...">
-            <div id="table">
+            <div id="table"  class="tableAdm">
                 <table class="table table-striped text-center mt-3">
                     <thead class="thead-dark">
                         <tr>
                             <!-- Por alguma razao as paginas Adm nao estao puxando codigo CSS entao inclui style individual em cada imagem -->
+                            <th scope="col">ID</th>
                             <th scope="col">Imagem</th>
                             <th scope="col">Produto</th>
                             <th scope="col">Preço (BRL)</th>
                             <th scope="col">Categoria</th>
-                            <th scope="col">ID</th>
-                            <th scope="col">Ações</th>
+                            <th scope="col" colspan="2">Ações</th>
         
                         </tr>
                     </thead>
-                    <tbody id="myTable">
+                    <tbody>
                         <tr>
+                            <td scope="row">000</td>
                             <td scope="row"><img src="assets\img\computador.jpg" alt="" id="thumbProduto"
                                     style="max-height: 50px;"></td>
                             <td scope="row">Computador</td>
                             <td scope="row">900</td>
                             <td scope="row">Eletrônicos</td>
-                            <td scope="row">000</td>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
@@ -52,12 +57,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td scope="row">001</td>
                             <td scope="row"><img src="assets\img\computador.jpg" alt="" id="thumbProduto"
                                     style="max-height: 50px;"></td>
                             <td scope="row">Harry Potter</td>
                             <td scope="row">900</td>
                             <td scope="row">Livros</td>
-                            <td scope="row">001</td>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
@@ -65,12 +75,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td scope="row">002</td>
                             <td scope="row"><img src="assets\img\celular.jpg" alt="" id="thumbProduto"
                                     style="max-height: 50px;"></td>
                             <td scope="row">Samsung S20</td>
                             <td scope="row">900</td>
                             <td scope="row">Eletrônicos</td>
-                            <td scope="row">002</td>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
@@ -78,12 +93,17 @@
                             </td>
                         </tr>
                         <tr>
+                            <td scope="row">003</td>
                             <td scope="row"><img src="assets\img\computador.jpg" alt="" id="thumbProduto"
                                     style="max-height: 50px;"></td>
                             <td scope="row">Bolsa Gucci</td>
                             <td scope="row">900</td>
                             <td scope="row">Bolsas</td>
-                            <td scope="row">003</td>
+                            <td>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                            </td>
                             <td>
                                 <a href="#" data-toggle="modal" data-target="#modal">
                                     <i class="fas fa-trash"></i>
@@ -121,7 +141,7 @@
         </div>
     </div>
 
-    <p class="font-weight-bold">Adicionar Categoria
+    <p class="font-weight-bold">Adicionar Produto
         <a href="#" data-toggle="modal" data-target="#modalAdd">
             <i class="far fa-plus-square"></i>
         </a>

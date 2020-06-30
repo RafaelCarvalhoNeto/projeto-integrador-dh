@@ -195,19 +195,33 @@ address{
 
 /* TABELAS */
 
-#table {
+.tableAdm {
     overflow-x:auto !important;
+
 }
 
 .arrendonar{
     border-radius: 100px;
 }
-
 /* Por alguma razao as paginas Adm nao estao puxando este codigo entao inclui style individual em cada imagem*/
 img#thumbProduto{
     max-width: 50px !important;
 }
 
+.tableAdm td:nth-last-child(1){
+    padding-left: 0 !important;
+
+}
+.tableAdm td:nth-last-child(2){
+    padding-right: 0 !important;
+
+}
+.tableAdm thead th:last-child{
+    width: 10%;
+}
+.tableAdm thead th:first-child{
+    width: 10%;
+}
 
 
 

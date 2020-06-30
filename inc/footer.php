@@ -60,7 +60,7 @@
               <small id="emailHelp" class="form-text text-muted">Nunca salve seu email em computadores públicos.</small>
             </div>
             <div class="form-group">
-              <label for="senha">Password</label>
+              <label for="senha">Senha</label>
               <input type="password" class="form-control" id="senha" placeholder="insira sua senha" aria-describedby="passwordHelp">
               <small id="passwordHelp" class="form-text text-muted">Nunca salve sua senha em computadores públicos.</small>
             </div>
@@ -74,8 +74,8 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           <button type="button" class="btn btn-primary">Logar</button>
         </div>
-        <label class="container justify-content-right">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
-        <label class="container justify-content-right">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
+        <label class="container justify-content-right mb-0">Ainda não tem cadastro? <a href="cadastro.php"><small>Cadastre-se Aqui!</small></a></label>
+        <label class="container justify-content-right mb-4">Esqueceu sua senha? <a href="#"><small>Clique Aqui!</small></a></label>
       </div>
     </div>
   </div>
